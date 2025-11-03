@@ -1,6 +1,6 @@
 # Hand Gesture Control System
 
-This project uses **Computer Vision (OpenCV + Mediapipe)** to control your **mouse, system, and image viewer** using **hand gestures** — inspired by Iron Man's J.A.R.V.I.S. 🦾
+This project uses **Computer Vision (OpenCV + Mediapipe)** to control your **mouse, system, and image viewer** using **hand gestures** — inspired by Iron Man's J.A.R.V.I.S.
 
 ## Features
 - Cursor Control with Index Finger  
@@ -37,5 +37,6 @@ pip install -r requirements.txt
 This project is licensed for **personal and educational use only**.  
 Reproduction, redistribution, or commercial use without permission is prohibited.  
 © 2025 **Parv Prajapati**. All rights reserved.
+
 
 
