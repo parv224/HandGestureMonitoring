@@ -31,22 +31,11 @@ pip install -r requirements.txt
 | Right Hand Move           | Drag Image            |
 
 
-
----
-
 ## Step 4: Initialize Git Locally
-Open **Command Prompt** or **Git Bash** inside your `HandGestureMonitoring` folder.
 
-Run these commands:
-
-```bash
-git init
-git add .
-git commit -m "Initial commit: Hand Gesture Control System"
-
----
 ## ⚠️ License Notice
 This project is licensed for **personal and educational use only**.  
 Reproduction, redistribution, or commercial use without permission is prohibited.  
 © 2025 **Parv Prajapati**. All rights reserved.
+
 
