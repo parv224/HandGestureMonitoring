@@ -1,16 +1,16 @@
-# 🤖 Hand Gesture Control System
+# Hand Gesture Control System
 
 This project uses **Computer Vision (OpenCV + Mediapipe)** to control your **mouse, system, and image viewer** using **hand gestures** — inspired by Iron Man's J.A.R.V.I.S. 🦾
 
-## 🧠 Features
-- 🖱️ Cursor Control with Index Finger  
-- 👌 Left & Right Click Gestures  
-- ✍️ Text Selection via Hand  
-- 🖼️ Image Viewer Mode (Zoom, Drag, Next Image)  
-- 🪟 Window Minimize/Maximize Gestures  
-- 👏 Clap Gestures to Trigger Actions  
+## Features
+- Cursor Control with Index Finger  
+- Left & Right Click Gestures  
+- Text Selection via Hand  
+- Image Viewer Mode (Zoom, Drag, Next Image)  
+- Window Minimize/Maximize Gestures  
+- Clap Gestures to Trigger Actions  
 
-## 🚀 How to Run
+## How to Run
 1. Clone this repo:
    ```bash
    git clone https://github.com/YOUR_USERNAME/HandGestureMonitoring.git
@@ -34,7 +34,7 @@ pip install -r requirements.txt
 
 ---
 
-## 🧮 Step 4: Initialize Git Locally
+## Step 4: Initialize Git Locally
 Open **Command Prompt** or **Git Bash** inside your `HandGestureMonitoring` folder.
 
 Run these commands:
@@ -49,3 +49,4 @@ git commit -m "Initial commit: Hand Gesture Control System"
 This project is licensed for **personal and educational use only**.  
 Reproduction, redistribution, or commercial use without permission is prohibited.  
 © 2025 **Parv Prajapati**. All rights reserved.
+
