@@ -96,7 +96,7 @@ while True:
             #  Left Click (thumb + index pinch)
             if math.hypot(thumb_tip[0] - index_tip[0], thumb_tip[1] - index_tip[1]) < 40:
                 pyautogui.click()
-                print("🖱️ Left Click")
+                print("Left Click")
 
             #  Right Click (thumb + middle touch)
             elif math.hypot(thumb_tip[0] - middle_tip[0], thumb_tip[1] - middle_tip[1]) < 40:
@@ -114,20 +114,20 @@ while True:
                 if selector.selecting:
                     pyautogui.mouseUp()
                     selector.selecting = False
-                    print("✅ Stop Selecting Text")
+                    print("Stop Selecting Text")
 
             # Capati → Maximize Window
             capati_dist = math.hypot(thumb_tip[0] - middle_tip[0], thumb_tip[1] - middle_tip[1])
             if capati_dist < 40 and clap_cooldown == 0:
                 system.maximize_window()
-                print("🫱 Flatten → Maximize Window")
+                print("Flatten → Maximize Window")
                 clap_cooldown = 25
 
         elif len(hand_positions) == 2:
             lm1, lm2 = hand_positions
             if is_clap(lm1, lm2) and clap_cooldown == 0:
                 system.minimize_window()
-                print("👏 CLAP → Minimize Window")
+                print("CLAP → Minimize Window")
                 clap_cooldown = 25
 
     # === MODE 2: IMAGE VIEWER ===
@@ -207,3 +207,4 @@ while True:
 
 cap.release()
 cv2.destroyAllWindows()
+
